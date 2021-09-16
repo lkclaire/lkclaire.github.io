@@ -41,7 +41,11 @@
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>LOGAN</strong></h1>
+                    <h1 onclick="switch()" class="change mbr-section-title mbr-fonts-style mb-3 display-1"><strong>LOGAN</strong></h1>
+                  <script> function switch(){
+                    let logan = document.querySelector(".change")
+                    logan.innerhtml = <div style="color: white;"><strong>LOGAN</strong></div>
+                    }</script>
                     <p class="mbr-text mbr-fonts-style display-5">An autobiography website created for my computer science class</p>
                     
                 </div>
