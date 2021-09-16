@@ -39,15 +39,15 @@
             <div class="col-12 col-md-6 image-wrapper">
                 <img src="assets/images/img-3346-1256x1675.jpg" alt="Mobirise">
             </div>
-            <div class="col-12 col-md">
+            <div onclick="switch()" class="col-12 col-md">
                 <div class="text-wrapper">
-                    <h1 onclick="switch()" class="change mbr-section-title mbr-fonts-style mb-3 display-1"><strong>LOGAN</strong></h1>
-                  <script> 
-                    alert("test")
-                    debugger;
+                    <h1 id="LOGAN" class="change mbr-section-title mbr-fonts-style mb-3 display-1"><strong>LOGAN</strong></h1>
+                  <script language="javascript">        
                     function switch(){
-                    let logan = document.querySelector(".change")
-                    logan.innerhtml = <div style="color: white;"><strong>LOGAN</strong></div>
+                    LOGAN = document.getElementByld("LOGAN")
+                      
+                        
+                    LOGAN.innerhtml = <div style="color: white !important;"><strong>LOGAN</strong></div>
                     }</script>
                     <p class="mbr-text mbr-fonts-style display-5">An autobiography website created for my computer science class</p>
                     
