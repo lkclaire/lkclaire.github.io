@@ -29,25 +29,34 @@
 <body>
   
   <section data-bs-version="5.1" class="header14 cid-sJ8qTK8agn" id="header14-15">
-
-<html>
-<head>
+<h1 id="titleLine">You Look Good</h1>  
+ 
 <style>
-	.mynewClassName {
-		background-color: pink;
+	.bigger{
+	   font-size: 26px;
+	}
+	
+	.normal{
+	   font-size: 14px;
 	}
 </style>
+
 <script language="JavaScript">
-	function changestuff() {
-		thingToChange = document.getElementById("LOGAN");
-		thingToChange.classname = "myNewClassName";
+	var makeBig = true
+	function theScript(){
+		titleLine = document.getElementById("navbar-caption");
+
+	if (makeBig){
+	titleLine.className = "bigger";
 	}
+	else{
+	titleLine.className = "normal";
+	}
+
 </script>
-<body>
-	<p id="LOGAN">stuff</p>
-	<button onclick="javascript:changestuff()">Click Here</button> 
-</body>
-</html>
+<a id="navbar-caption" class="bigger">You Look Good</a>
+<div onclick="theScript()" style="width: 100; height: 100; background-color: pink;">Surprise!</div> ==$0
+
 	  
 
     <div class="container-fluid">
